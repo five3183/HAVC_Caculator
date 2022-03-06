@@ -9,22 +9,24 @@
 </head>
 <body>
   <div class="container"> 
-    <div>
-      <h1 class="mb5">HVAC CACULATOR</h1>
+    <div class="d-flex justify-content-center">
+      <h1 class="mb-5">HVAC CALCULATOR</h1>
     </div>
      <!--MICROFARADS CACULATOR-->
-    <div id="MicroDiv">
+    <div class ="mb-5" id= "MicroDiv">
       <h2>Microfarads Caculator</h2>
       <div class="d-flex justify-content-center">
         <div class="input-group mb-3">
           <span class="input-group-text" >AMPS:</span>
           <input type="text" inputmode="decimal" pattern="[0-9]*" class="form-control" id="_amps">
         </div>
+      </div>
+      <div class="d-flex justify-content-center">
         <div class="input-group mb-3">
           <span class="input-group-text" >VOLTS:</span>
           <input type="text" inputmode="decimal" pattern="[0-9]*" class="form-control" id="_volts">
         </div>
-       </div>
+      </div>
       <div class="d-flex justify-content">
         <div class="input-group mb-3">
             <button type="button" class="btn btn-success" id="_microCalc" onclick="microfaradCalc()">Caculate</button>
@@ -38,7 +40,7 @@
        </div>
     </div>
     <!--GAS HEAT TEMP RISE-->
-    <div class="mt-3" id="GasHeatCFM">
+    <div class="mt-3 mb-5" id="GasHeatCFM">
       <h2>Temperature Rise Method – Gas Heat</h2>
       <div class="d-flex justify-content-center">
         <div class="input-group mb-3">
@@ -71,7 +73,7 @@
        </div>
     </div>
     <!--TEMP RISE AC / HEATPUMP-->
-    <div class="mt-3" id="HeatPumpCFM">
+    <div class="mt-5 mb-5" id="HeatPumpCFM">
       <h2>Temperature Rise Method – Electric Heat (air conditioning and heat pumps)</h2>
       <div class="d-flex justify-content-center">
         <div class="input-group mb-3">
