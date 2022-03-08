@@ -10,9 +10,7 @@ let microfaradCalc = ()=> {
 
   let microValue = document.getElementById("_microfarads")
 
- 
-
-  microValue.value = microfarads
+  microValue.value = microfarads.toFixed(3)
 }
 
 let TempRiseMethod = () => {
@@ -27,7 +25,7 @@ let TempRiseMethod = () => {
 
   let CFM1 = document.getElementById("_CFM1")
 
-  CFM1.value = CFM 
+  CFM1.value = CFM.toFixed(3)
 }
 
 
@@ -48,5 +46,5 @@ let ahTempRiseMethod = () => {
 
   let ahCFM = document.getElementById("_ahCFM")
 
-  ahCFM.value = CFM
+  ahCFM.value = CFM.toFixed(3)
 }
