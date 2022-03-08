@@ -6,7 +6,7 @@ let microfaradCalc = ()=> {
   let amps = document.getElementById("_amps").value
   let microfarads
  
-  microfarads = (amps/2652)/volts
+  microfarads = (amps*2652)/volts
 
   let microValue = document.getElementById("_microfarads")
 
